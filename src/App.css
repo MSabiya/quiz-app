@@ -1,0 +1,35 @@
+
+.option {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #444;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.option:hover {
+  background-color: #555;
+}
+
+.option.correct {
+  background-color: green;
+  color: white;
+}
+
+.option.inactive {
+  color: #bbb;
+  cursor: default;
+}
+
+.feedback {
+  margin-top: 10px;
+  font-weight: bold;
+}
+.feedback.correct {
+  color: green;
+}
+.feedback.wrong {
+  color: red;
+}
