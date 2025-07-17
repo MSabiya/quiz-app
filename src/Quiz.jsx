@@ -116,6 +116,9 @@ function Quiz() {
                   fontSize:'18px'
                   
                 },
+
+                
+
                 ...getOptionStyle(opt),
               }}
               disabled={isAnswered}
